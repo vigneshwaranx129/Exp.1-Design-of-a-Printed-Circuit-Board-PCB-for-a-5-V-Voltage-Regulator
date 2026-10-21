@@ -1,9 +1,9 @@
 # Exp.1-Design-of-a-Printed-Circuit-Board-PCB-for-a-5-V-Voltage-Regulator
-Aim
+## Aim
 
 To design the schematic and PCB layout of a 5 V voltage regulator circuit using KiCad, perform electrical and design rule checks, and generate Gerber files for PCB fabrication
 
-Apparatus Required
+## Apparatus Required
 
 1.Computer with KiCad (Version 8.0 or later)
 2.7805 Voltage Regulator (TO-220 Package)
@@ -16,21 +16,12 @@ Apparatus Required
 9.330 Ω Resistor
 10.PCB design libraries available in KiCad
 
-Circuit Diagram
+## Circuit Diagram
+
+<img width="1915" height="1198" alt="image" src="https://github.com/user-attachments/assets/e477c349-53fa-40a7-9ad9-cb3d6dd008f3" />
 
 
-
-
-
-
-
-
-
-
-
-
-
-Procedure
+## Procedure
 
 1.Open KiCad and create a new project.
 2.Draw the schematic by placing the 7805 regulator, capacitors, resistor, LED, and connectors.
@@ -43,27 +34,19 @@ Procedure
 9.Route all PCB tracks using the required track width.
 10.Create a copper fill (ground plane) connected to GND.
 
-Output:
+## Output
+
+## PCB output:
+
+<img width="1913" height="1198" alt="image" src="https://github.com/user-attachments/assets/db6d0eed-ba4f-4c4d-bb7b-24cd92b56d97" />
+
+## 3D output:
+
+<img width="1913" height="1198" alt="image" src="https://github.com/user-attachments/assets/fb107ed1-8a59-468d-8e92-ae9ba6370211" />
+<img width="1915" height="1198" alt="image" src="https://github.com/user-attachments/assets/58cfc86f-4ed7-43f9-9f65-4266c7a7de68" />
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Result:
+## Result:
 
 The PCB layout for the 5 V Voltage Regulator was successfully designed in KiCad. The schematic passed the Electrical Rule Check (ERC), the PCB passed the Design Rule Check (DRC) without errors, and the Gerber files required for PCB fabrication were successfully generated
 
